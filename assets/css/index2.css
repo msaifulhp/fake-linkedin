@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|News+Cycle');
+/** font-family: 'Montserrat', sans-serif;
+font-family: 'News Cycle', sans-serif; **/
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+#link-signup {
+    background: #007BAC;
+    height: 115vh;
+}
+/**header-text***/
+.header-text{
+	text-align: center;
+    margin-top: 20px;
+    line-height: 4px;
+
+}
+.header-text ul li p {
+    margin-left: -16px;
+    color: #b7b7b7;
+    font-size: 12px;
+}
+.header-text p {
+    color: white;
+    font-size: 30px;
+}
+
+.header-text ul li h3 span {
+	color: #007BAC;
+    background: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: lowercase;
+    padding: 0px 3px;
+    border-radius: 3px;
+    margin-left: -5px;
+}
+.header-text ul li h3 {
+	color: white;
+	font-size: 35px;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+
+/***signup***/
+.box {
+    background: #EEEEEE;
+    width: 440px;
+    padding: 20px 30px;
+    margin-left: 52px;
+    margin-top: 20px;
+}
+.or-area:after {
+    position: absolute;
+    content: "";
+    top: 92%;
+    left: 66%;
+    width: 41%;
+    height: 1px;
+    background: rgb(181, 181, 181);
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 2px;
+    font-weight: lighter !important;
+    font-size: 13px;
+}
+.signup-text p {
+    margin: 0 0 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #6d6d6d;
+}
+.signup-text p span {
+    color: #1b1b1b;
+   
+}
+.box input.btn.btn-custom3{
+	    width: 100%;
+    background: #0c6da0;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    font-size: 18px;
+}
+.box input.btn.btn-custom3:hover{
+	    background: #135375;
+}
+.already{
+	text-align: center;
+
+}
+.already ul li{
+	
+}
+.already ul li a{
+	text-decoration: none;
+}

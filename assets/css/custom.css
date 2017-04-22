@@ -1,0 +1,66 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  .box {
+    margin-left: 5px ;
+}
+#link-signup {
+    height: 130vh;
+}
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ .box {
+    margin-left: -54px;
+}
+#link-signup {
+    height: 130vh;
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+    .header-sign {
+    display: none;
+}
+.pass input.form-control {
+    width: 104%;
+}
+.ques button.btn.btn-custom {
+    display: none;
+}
+#link-signup {
+    height: 130vh;
+}
+.box {
+    margin-left: 74px;
+}
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 580px) { 
+#link-signup {
+    height: 130vh;
+}
+.box {
+    margin-left: 8px;
+}
+.header-text p {
+    font-size: 18px;
+}
+}
+@media only screen and (max-width: 479px) { 
+#link-signup {
+    height: 140vh;
+}
+.box {
+    margin-left: 8px;
+}
+.header-text p {
+    font-size: 12px;
+}
+.box {
+    width: auto;
+    
+}
+}
